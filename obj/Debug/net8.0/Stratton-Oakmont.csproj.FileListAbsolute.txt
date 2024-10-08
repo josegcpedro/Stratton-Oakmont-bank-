@@ -12,3 +12,4 @@
 /Users/josepedro/Desktop/Projets/Epsic/1 semestre/Fabien Gallit 320/Stratton-Oakmont/obj/Debug/net8.0/Stratton-Oakmont.pdb
 /Users/josepedro/Desktop/Projets/Epsic/1 semestre/Fabien Gallit 320/Stratton-Oakmont/obj/Debug/net8.0/Stratton-Oakmont.genruntimeconfig.cache
 /Users/josepedro/Desktop/Projets/Epsic/1 semestre/Fabien Gallit 320/Stratton-Oakmont/obj/Debug/net8.0/ref/Stratton-Oakmont.dll
+/Users/josepedro/Desktop/Projets/Epsic/1 semestre/Fabien Gallit 320/Stratton-Oakmont/obj/Debug/net8.0/Stratton-Oakmont.sourcelink.json

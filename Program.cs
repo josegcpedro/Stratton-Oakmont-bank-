@@ -5,11 +5,13 @@ class User
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
+    public decimal Balance { get; set; }
 
-    public User(string firstName, string lastName)
+    public User(string firstName, string lastName, decimal initialBalance = 0)
     {
         FirstName = firstName;
         LastName = lastName;
+        Balance = initialBalance;
     }
 }
 
@@ -19,9 +21,9 @@ class Program
     {
         List<User> users = new List<User>
         {
-            new User("Jose", "Gomes"),
-            new User("Tatiana", "Isabel"),
-            new User("Paulo", "Cunha")
+            new User("Jose", "Gomes",900),
+            new User("Tatiana", "Isabel",1230),
+            new User("Paulo", "Cunha",5000)
         };
 
         Console.WriteLine("Hello, welcome to Statton Oakmont bank!");
@@ -45,6 +47,7 @@ class Program
         if (userExists)
         {
             Console.WriteLine($"Welcome back {firstName} {lastName}!");
+            Console.WriteLine("Your balance is: {0:C}", users.Find(x => x.FirstName.Equals(firstName, StringComparison.OrdinalIgnoreCase) && x.LastName.Equals(lastName, StringComparison.OrdinalIgnoreCase)).Balance);
         }
         else
         {

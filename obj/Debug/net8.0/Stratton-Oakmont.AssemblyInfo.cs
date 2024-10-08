@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Stratton-Oakmont")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77d7b8e0cd2c8dd36a38afda860197016a74ae7c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Stratton-Oakmont")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Stratton-Oakmont")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
